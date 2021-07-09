@@ -2,7 +2,7 @@ var treeW, treeH, centerX, centerY;
 var clicked, animating = false;
 
 
-$( document ).ready(function() {
+$(window).on('load', function(e) {
     init();
 
     $('.box').click(function(){
