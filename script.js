@@ -3,6 +3,10 @@ var clicked, animating = false;
 
 
 $(window).on('load', function(e) {
+    $('.bubbles').each(function () {
+        $(this).css('display', "block");
+    });
+
     init();
 
     $('.box').click(function(){
@@ -119,6 +123,7 @@ $( window ).resize(function() {
 function init(){
 
     $('.bubbles').each(function () {
+
         $(this).css('z-index', 1);
 
         var overlay = $(this).children( ".overlayBubble" );
