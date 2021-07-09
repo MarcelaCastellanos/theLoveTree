@@ -64,5 +64,12 @@ body {
 
 .note{
     font-family: 'Raleway';
+}
+
+.noteLink{
     font-size: 20px;
+}
+
+.noteBox{
+    font-size: 18px;
 }
